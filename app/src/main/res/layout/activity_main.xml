@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFF2"
+    android:layout_gravity="bottom"
+    android:padding="4dp"
+    tools:context=".MainActivity"
+    >
+
+    <EditText
+        android:id="@+id/catchDataET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:cursorVisible="false"
+        android:hint=""
+        android:enabled="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#EAEFF2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/BT1"
+                style="@style/number_row_style"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/BT2"
+                style="@style/number_row_style"
+                android:text="2" />
+
+
+            <Button
+                android:id="@+id/BT3"
+                style="@style/number_row_style"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/BT4"
+                style="@style/number_row_style"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/BT5"
+                style="@style/number_row_style"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/BT6"
+                style="@style/number_row_style"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/BT7"
+                style="@style/number_row_style"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/BT8"
+                style="@style/number_row_style"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/BT9"
+                style="@style/number_row_style"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/BT0"
+                style="@style/number_row_style"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="#EAEFF2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/BTq"
+                style="@style/number_row_style"
+                android:text="q" />
+
+            <Button
+                android:id="@+id/BTw"
+                style="@style/number_row_style"
+                android:text="w" />
+
+            <Button
+                android:id="@+id/BTe"
+                style="@style/number_row_style"
+                android:text="e" />
+
+            <Button
+                android:id="@+id/BTr"
+                style="@style/number_row_style"
+                android:text="r" />
+
+            <Button
+                android:id="@+id/BTt"
+                style="@style/number_row_style"
+                android:text="t" />
+
+            <Button
+                android:id="@+id/BTy"
+                style="@style/number_row_style"
+                android:text="y" />
+
+            <Button
+                android:id="@+id/BTu"
+                style="@style/number_row_style"
+                android:text="u" />
+
+            <Button
+                android:id="@+id/BTi"
+                style="@style/number_row_style"
+                android:text="i" />
+
+            <Button
+                android:id="@+id/BTo"
+                style="@style/number_row_style"
+                android:text="o" />
+
+            <Button
+                android:id="@+id/BTp"
+                style="@style/number_row_style"
+                android:text="p" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="#EAEFF2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BTa"
+                style="@style/number_row_style"
+                android:layout_marginLeft="20dp"
+                android:text="a" />
+
+            <Button
+                android:id="@+id/BTs"
+                style="@style/number_row_style"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/BTd"
+                style="@style/number_row_style"
+                android:text="d" />
+
+            <Button
+                android:id="@+id/BTf"
+                style="@style/number_row_style"
+                android:text="f" />
+
+            <Button
+                android:id="@+id/BTg"
+                style="@style/number_row_style"
+                android:text="g" />
+
+            <Button
+                android:id="@+id/BTh"
+                style="@style/number_row_style"
+                android:text="h" />
+
+            <Button
+                android:id="@+id/BTj"
+                style="@style/number_row_style"
+                android:text="j" />
+
+            <Button
+                android:id="@+id/BTk"
+                style="@style/number_row_style"
+                android:text="k" />
+
+            <Button
+                android:id="@+id/BTl"
+                style="@style/number_row_style"
+                android:layout_marginRight="20dp"
+                android:text="l" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="#EAEFF2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/capsBT"
+                style="@style/three_button_style"
+                android:src="@drawable/shift" />
+
+            <Button
+                android:id="@+id/BTz"
+                style="@style/number_row_style"
+                android:text="z" />
+
+            <Button
+                android:id="@+id/BTx"
+                style="@style/number_row_style"
+                android:text="x" />
+
+            <Button
+                android:id="@+id/BTc"
+                style="@style/number_row_style"
+                android:text="c" />
+
+            <Button
+                android:id="@+id/BTv"
+                style="@style/number_row_style"
+                android:text="v" />
+
+            <Button
+                android:id="@+id/BTb"
+                style="@style/number_row_style"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/BTn"
+                style="@style/number_row_style"
+                android:text="n" />
+
+            <Button
+                android:id="@+id/BTm"
+                style="@style/number_row_style"
+                android:text="m" />
+
+            <ImageButton
+                android:id="@+id/cancelBT"
+                style="@style/three_button_style"
+                android:src="@drawable/cross" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#EAEFF2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/three_button_style"
+                android:text="\?123" />
+
+            <Button
+                android:id="@+id/commaBT"
+                style="@style/number_row_style"
+                android:background="@drawable/rounded_button_with_shadow_cross_shift_what"
+                android:text="," />
+
+            <ImageButton
+                android:id="@+id/imoBT"
+                style="@style/number_row_style"
+                android:elevation="2dp"
+                android:src="@drawable/imo" />
+
+            <Button
+                android:id="@+id/spaceBT"
+                style="@style/number_row_style"
+                android:layout_weight=".4"
+                android:text="English"
+                android:textColor="#425760"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+
+            <Button
+                android:id="@+id/fullStopBT"
+                style="@style/number_row_style"
+                android:background="@drawable/rounded_button_with_shadow_cross_shift_what"
+                android:text="." />
+
+            <ImageButton
+                android:id="@+id/enterBT"
+                style="@style/three_button_style"
+                android:background="@drawable/rounded_path_with_shadow_enter"
+                android:src="@drawable/path" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
